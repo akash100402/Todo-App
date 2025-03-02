@@ -1,7 +1,9 @@
 import AddTodoForm from "./components/AddTodoForm";
+import Footer from "./components/Footer";
 import TodoList from "./components/TodoList";
 import TodoSummary from "./components/TodoSummary";
 import useTodos from "./hooks/useTodos";
+
 
 function App() {
   const {
@@ -24,6 +26,7 @@ function App() {
         />
       </div>
       <TodoSummary todos={todos} deleteAllCompleted={deleteAllCompletedTodos} />
+      <Footer/>
     </main>
   );
 }
