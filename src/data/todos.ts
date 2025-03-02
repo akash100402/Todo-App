@@ -3,17 +3,17 @@ import { Todo } from "../types/todo";
 export const dummyData: Todo[] = [
   {
     id: 1,
-    title: "I am ironman",
+    title: "Wake up at 6'o clock in the morning😴",
     completed: false,
   },
   {
     id: 2,
-    title: "I eat breakfast",
-    completed: true,
+    title: "Running 2 hours today🏃‍♂️",
+    completed: false,
   },
   {
     id: 3,
-    title: "thats coooool",
+    title: "Study for tomarrow exam📖",
     completed: false,
   },
 ];
